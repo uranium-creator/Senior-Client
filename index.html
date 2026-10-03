@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Senior Client | Minecraft Performance Boost</title>
+    <meta
+      name="description"
+      content="Senior Client ücretsiz bir Minecraft istemcisidir. Elytra Target, özel HUD ve topluluk güncellemeleri."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a href="#top" class="brand" aria-label="Senior Client home" data-i18n="brand">
+          <span class="brand-mark">S</span>
+          <span>Senior Client</span>
+        </a>
+
+        <nav class="main-nav" aria-label="Main navigation">
+          <a href="#features" data-i18n="nav.features">Özellikler</a>
+          <a href="#performance" data-i18n="nav.performance">Client</a>
+          <a href="#download" data-i18n="nav.download">İndir</a>
+        </nav>
+
+        <div class="header-actions">
+          <a href="https://discord.gg/v6Yad8KNS" class="button button-primary discord-button" target="_blank" rel="noopener noreferrer" data-i18n="cta.discord">Discord'a katıl</a>
+          <button class="lang-toggle" id="langToggle" type="button" aria-label="Switch language" title="Switch language">
+            <span>TR</span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <span class="eyebrow" data-i18n="hero.badge">Minecraft için ücretsiz client</span>
+            <h1 data-i18n="hero.title">Own the skies.<br /><span class="gold-text">Fly your way.</span></h1>
+            <p data-i18n="hero.text">
+              Senior Client, Elytra oyuncuları için tasarlanmış ücretsiz bir
+              Minecraft client deneyimidir. Özellikleri keşfet, topluluğa katıl
+              ve en son indirme bağlantısını Discord'dan al.
+            </p>
+
+            <div class="hero-actions">
+              <a href="senior-client-1.7.jar" class="button button-primary button-download" download="Senior-Client-1.7.jar" data-i18n="hero.primaryBtn">Ücretsiz indir <span aria-hidden="true">↗</span></a>
+              <a href="#features" class="button button-secondary" data-i18n="hero.secondaryBtn">Özellikleri keşfet</a>
+            </div>
+
+            <ul class="hero-stats" aria-label="Client highlights">
+              <li><strong data-i18n="stat.free">Ücretsiz</strong><span data-i18n="stat.freeSub">Her zaman ücretsiz</span></li>
+              <li><strong>Elytra</strong><span data-i18n="stat.target">Target özelliği</span></li>
+              <li><strong>Discord</strong><span data-i18n="stat.community">Topluluk ve indirme</span></li>
+            </ul>
+          </div>
+
+          <div class="hero-visual" aria-label="Senior Client Elytra Target interface preview">
+            <div class="target-scene">
+              <div class="scene-stars" aria-hidden="true"></div>
+              <div class="scene-moon" aria-hidden="true"></div>
+              <div class="scene-horizon" aria-hidden="true"></div>
+              <div class="target-reticle" aria-hidden="true"><span></span></div>
+              <div class="scene-hud">
+                <div class="hud-brand"><span class="hud-brand-mark">S</span><span>SENIOR CLIENT</span><span class="hud-live"><i></i> LIVE</span></div>
+                <div class="hud-readout"><span data-i18n="visual.module">ELYTRA TARGET</span><strong data-i18n="visual.ready">READY</strong></div>
+                <div class="hud-track"><span></span></div>
+                <div class="hud-caption"><span data-i18n="visual.mode">FLIGHT MODULE</span><span>01 / 04</span></div>
+              </div>
+            </div>
+
+            <div class="floating-tag tag-left">
+              <span data-i18n="tag.free">Ücretsiz</span>
+              <strong>100%</strong>
+            </div>
+            <div class="floating-tag tag-right">
+              <span data-i18n="tag.elytra">Elytra modu</span>
+              <strong>ACTIVE</strong>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="logo-strip">
+        <div class="container logo-list" aria-label="Senior Client highlights">
+          <span data-i18n="strip.free">ÜCRETSİZ</span>
+          <span>ELYTRA</span>
+          <span>TARGET</span>
+          <span>HUD</span>
+          <span>COMMUNITY</span>
+          <span>SENIOR</span>
+        </div>
+      </section>
+
+      <section id="features" class="section">
+        <div class="container">
+          <div class="section-heading">
+            <span class="eyebrow" data-i18n="features.eyebrow">Öne çıkan özellikler</span>
+            <h2 data-i18n="features.heading">Uçuş için tasarlandı. Senin tarzına göre ayarlandı.</h2>
+          </div>
+
+          <div class="feature-grid">
+            <article class="feature-card">
+              <div class="icon">01</div>
+              <h3 data-i18n="feature.one.title">Elytra Target</h3>
+              <p data-i18n="feature.one.text">Elytra oyun tarzı için geliştirilmiş, ayarlanabilir hedefleme aracı.</p>
+            </article>
+
+            <article class="feature-card">
+              <div class="icon">02</div>
+              <h3 data-i18n="feature.two.title">Temiz, özel HUD</h3>
+              <p data-i18n="feature.two.text">Oyun içi bilgileri tek bakışta gör; görünümünü kendi zevkine göre düzenle.</p>
+            </article>
+
+            <article class="feature-card">
+              <div class="icon">03</div>
+              <h3 data-i18n="feature.three.title">Ücretsiz ve topluluk odaklı</h3>
+              <p data-i18n="feature.three.text">Client ücretsizdir. Duyurulara, desteğe ve indirme bağlantısına Discord'dan ulaş.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="performance" class="section alt-section">
+        <div class="container">
+          <div class="section-heading center">
+            <span class="eyebrow" data-i18n="performance.eyebrow">Client'i tanı</span>
+            <h2 data-i18n="performance.heading">Önemli olan her şey. Gereksiz hiçbir şey.</h2>
+          </div>
+
+          <div class="stack-grid">
+            <div class="stack-card">
+              <h3 data-i18n="perf.card1.title">Elytra odaklı modül</h3>
+              <p data-i18n="perf.card1.text">Elytra Target özelliğini client deneyiminin merkezine koy.</p>
+            </div>
+            <div class="stack-card">
+              <h3 data-i18n="perf.card2.title">Kolay kişiselleştirme</h3>
+              <p data-i18n="perf.card2.text">Modülleri ve görünümü kendi tercihine göre düzenle.</p>
+            </div>
+            <div class="stack-card">
+              <h3 data-i18n="perf.card3.title">Oyun içi HUD</h3>
+              <p data-i18n="perf.card3.text">Dikkatini oyunda tutan, sade ve okunaklı arayüz.</p>
+            </div>
+            <div class="stack-card">
+              <h3 data-i18n="perf.card4.title">Discord güncellemeleri</h3>
+              <p data-i18n="perf.card4.text">Yeni sürümler ve indirme duyuruları için topluluğa katıl.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="download" class="section download-section">
+        <div class="container">
+          <div class="download-panel">
+            <div class="download-copy">
+              <span class="eyebrow" data-i18n="download.eyebrow">Ücretsiz indir</span>
+              <h2 data-i18n="download.heading">Hazır mısın? Topluluğa katıl.</h2>
+              <p data-i18n="download.text">Senior Client ücretsizdir. Sürüm 1.7 dosyasını doğrudan indir; destek ve topluluk duyuruları için Discord'a katıl.</p>
+              <a href="senior-client-1.7.jar" class="button button-primary button-download" download="Senior-Client-1.7.jar" data-i18n="download.button">Download client <span aria-hidden="true">↓</span></a>
+              <div class="download-meta" aria-label="Download details">
+                <span><span data-i18n="download.version">SÜRÜM</span><strong>1.7</strong></span>
+                <span><span data-i18n="download.format">FORMAT</span><strong>.JAR</strong></span>
+                <span><span data-i18n="download.size">BOYUT</span><strong>6.1 MB</strong></span>
+              </div>
+              <small data-i18n="download.note">Dosya doğrudan bu siteden indirilir. Topluluk için Discord'a katıl.</small>
+            </div>
+            <div class="download-mark" aria-hidden="true">
+              <span class="download-mark-orbit"></span>
+              <span class="download-mark-letter">S</span>
+              <span class="download-mark-caption">FREE CLIENT</span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-wrap">
+        <div>
+          <a href="#top" class="brand footer-brand">
+            <span class="brand-mark">S</span>
+            <span>Senior Client</span>
+          </a>
+          <p data-i18n="footer.text">Elytra uçuşunu kendi tarzında yaşa. Ücretsiz indir, topluluğa katıl.</p>
+        </div>
+
+        <div class="footer-links">
+          <a href="#features" data-i18n="nav.features">Özellikler</a>
+          <a href="#performance" data-i18n="nav.performance">Performans</a>
+          <a href="#download" data-i18n="nav.download">İndir</a>
+        </div>
+
+        <div class="footer-cta">
+          <p data-i18n="footer.discord">Ücretsiz. Topluluk odaklı.</p>
+          <a href="https://discord.gg/v6Yad8KNS" class="button button-primary discord-button" target="_blank" rel="noopener noreferrer" data-i18n="cta.discord">Discord'a katıl</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
